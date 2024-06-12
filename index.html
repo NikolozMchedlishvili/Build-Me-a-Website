@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Me a Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/web/img/website_icon.png">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <h1 id="mainHeading">Innovative Web Solutions for Modern Businesses</h1>
+            <p id="subHeading">Your Partner in Building Stunning Websites</p>
+            <!--<div class="language-selector">
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="en">English</option>
+                    <option value="ka">Georgian</option>
+                </select>
+            </div>-->
+            <a href="#contact" class="btn-primary" id="contactButton">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="benefits" class="section">
+            <div class="container">
+                <h1 id="benefitsHeading">With Only a Couple of Hundred Bucks You Can</h1>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <h1 id="visibilityTitle">Increase Visibility</h1>
+                        <p id="visibilityDesc">A well-designed website can enhance your company's online presence and reach a wider audience.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h1 id="credibilityTitle">Boost Credibility</h1>
+                        <p id="credibilityDesc">Having a professional and simple website helps build trust and credibility with potential customers.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h1 id="salesTitle">Increase Sales</h1>
+                        <p id="salesDesc">By showcasing your products or services online, you can reach more customers and drive sales. A well-optimized website can turn visitors into paying customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="importance" class="section bg-light">
+            <div class="container">
+                <h2 id="importanceHeading">Why It's Important</h2>
+                <p id="importanceDesc">In today's digital age, having a website is crucial for any business. It serves as the foundation for your online presence, allowing you to showcase your products or services, communicate with customers, and establish your brand identity. Without a website, you risk missing out on potential customers and falling behind your competitors.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="section footer">
+        <div class="container">
+            <h2 id="contactHeading">Contact Us</h2>
+            <p id="contactDesc">Ready to take your business to the next level? Get in touch with us today!</p>
+            <p id="contactTel">TEL: +995 598 433 775</p>
+            <form id="contactForm" action="https://formspree.io/f/xayrrjpe" method="POST">
+                <div class="form-group">
+                    <label for="name" id="nameLabel">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="emailLabel">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" id="messageLabel">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" id="sendButton">Send Message</button>
+            </form>
+        </div>
+    </footer>
